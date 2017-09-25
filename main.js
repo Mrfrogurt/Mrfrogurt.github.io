@@ -14,13 +14,13 @@ function createWard(ward, mouseEvent) {
 }
 
 function click(mouseEvent) {
-	const percentChanceSquire = 0.25;
+	const percentChanceLaugh = 0.10;
 	let ward;
-	
-	ward = "VenoWard";
-	
-	
-	
+	if (Math.random() < 0.10){
+		ward = "Necro";	
+	} else {
+		ward = "VenoWard"
+	}
 	createWard(ward, mouseEvent);
 }
 

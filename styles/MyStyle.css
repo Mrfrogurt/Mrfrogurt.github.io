@@ -9,7 +9,20 @@ html {
 .preload {
 	display: none;
 }
-
+footer {
+	text-align: right;
+	font-family: arial;
+	background-color: white;
+	opacity: 0.75;
+	width: min(600px, 100%);
+	margin: 10px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+footer p {
+	margin: 5px;
+}
 img.ward {
     position: absolute;
     -webkit-user-drag: none;
